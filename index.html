@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify</title>
+    <link rel="stylesheet" href="css2.css">
+    <link rel="shortcut icon" type="image/png" href="icons8-musical-notes-24.png">
+</head>
+<body bgcolor="#56c2d1">
+    <audio src="" id="audio"></audio>
+    <nav>
+        <ul>
+            <li class="logo"><img src="music-svgrepo-com.svg" height="40px" width="40px" alt="Musify">Musify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="musicplayer">
+        <div class="player">
+           <div class="box">
+               <h1 class="music-name">Song one</h1>
+               <p class="artist-name">Artist-name</p>
+               <div class="disk"></div>
+               <div class="slider">
+                   <input type="range" value="0" class="seek-bar">
+                   <span class="current-time">00:00</span>
+                   <span class="song-time">00:00</span>
+               </div>
+               <div class="controls">
+                   <button class="btn back"><img src="previous.png" height="30px" width="30px"></button>
+                   <button class="play pause">
+                       <span></span>
+                       <span></span>
+                   </button>
+                   <button class="btn fwd"><img src="fast-forward.png" height="30px" width="30px"></button>
+               </div>
+           </div>
+        </div>
+           <div class="list">
+               <div class="s1"><button class="so1">Thunder</button></div>
+               <div class="s2"><button class="so2">Closer</button></div>
+               <div class="s3"><button class="so3">Demons</button></div>
+               <div class="s4"><button class="so4">Shape of You</button></div>
+               <div class="s5"><button class="so5">Magenta Riddim</button></div>
+           </div>
+        </div>
+        <div class="music">
+        </div>
+    
+    <script src="data.js"></script>
+    <script src="ccjs.js"></script>
+</body>
+</html>
