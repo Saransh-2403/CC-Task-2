@@ -263,7 +263,8 @@ nav ul li
         flex-direction: row;
         height: fit-content;
         margin: none;
-        width: auto;
+        width: fit-content;
+        margin-left: none;
     }
     .so1,.so2,.so3,.so4,.so5{
         height: 50px;
